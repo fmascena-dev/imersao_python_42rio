@@ -7,6 +7,6 @@ def add_one(x):
 number = 5
 print("Before:", number)
 
-number = add_one(number)
+add_one(number)
 
 print("After:", number)
