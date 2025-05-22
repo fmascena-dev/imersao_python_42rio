@@ -9,11 +9,11 @@ if len(args) != 2:
 else:
     try:
         start = int(args[0])
-        end = int(args[1])
+        end = int(args[1]) + 1
         if start < end:
-            array = list(range(start + 1, end))
+            array = list(range(start, end))
         else:
-            array = list(range(end + 1, start))
+            array = list(range(end +1, start))
         print(array)
     except ValueError:
         print("none")
