@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
-args = __import__('sys').argv[1:]
+import sys
 
-def shrink(s):
-    print(s[:8])
+args = sys.argv[1:]
 
-def enlarge(s):
-    print(s.ljust(8, 'Z'))
+def shrink(str):
+    print(str[:8])
+
+def enlarge(str):
+    print(str.ljust(8, 'Z'))
 
 if not args:
     print("none")

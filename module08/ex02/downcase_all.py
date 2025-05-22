@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
-def downcase_it(s):
-    return s
+def downcase_it(str):
+    return str
 
 args = __import__('sys').argv[1:]
 

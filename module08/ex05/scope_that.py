@@ -4,7 +4,7 @@ def add_one(x):
     x += 1
     return x
 
-number = 5
+number = 25
 print("Before:", number)
 
 number = add_one(number)

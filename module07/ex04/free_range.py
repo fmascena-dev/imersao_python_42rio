@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-args = __import__('sys').argv[1:]
+import sys
+
+args = sys.argv[1:]
 
 if len(args) != 2:
     print("none")
